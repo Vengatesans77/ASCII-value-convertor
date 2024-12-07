@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/inputChar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter a character"
+        android:inputType="text"
+        android:maxLength="1"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert to ASCII"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/asciiValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASCII Value: "
+        android:textSize="18sp"/>
+</LinearLayout>
